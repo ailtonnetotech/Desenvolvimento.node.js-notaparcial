@@ -1,0 +1,24 @@
+{
+    "name": "my-api-project",
+    "version": "1.0.0",
+    "description": "API de gerenciamento de tarefas construída com Node.js, Express, Sequelize, dotenv e MySQL.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "sequelize": "sequelize-cli"
+    },
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "mysql2": "^3.1.2",
+      "sequelize": "^6.23.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22",
+      "sequelize-cli": "^6.6.0"
+    },
+    "author": "Ailton Neto",
+    "license": "MIT"
+  }
+  
